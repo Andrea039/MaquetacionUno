@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #181f2a;
+    color:white;
+}
+
+/* Logo y barra navegacion */
+header{
+    margin:2% 2% 2% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+/* First Section */
+.container-1{
+    max-width: 10000px;
+}
+.prueba-imagen{
+    display: block;
+    margin: auto;
+}
+.container-2{
+    max-width: 48%;
+    margin: 5% auto;
+}
+.container-2 h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.container-2 p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-top:7% ;
+}
+.container-2 button{
+    display: block;
+    margin:auto;
+    margin-top: 5%;
+    width: 40%;
+    height: 70px;
+    border: 0;
+    border-radius: 50px;
+    font-size: 25px;
+    color: white;
+    background: #339ecc;
+}
+.container-grid-1{
+    display: grid;
+    max-width: 1000px;
+    margin: 10% auto;
+    grid-gap:10%;
+    grid-template-columns: repeat(2,1fr);
+}
+.container-grid-1{
+    text-align: center;  
+}
+.container-grid-1 i{
+    color: #339ecc;
+}
+.container-grid-1 h3{
+    margin-top: 5%;
+    font-size: 35px;
+}
+.container-grid-1 p{
+    margin-top: 5%;
+    font-size: 18px;
+    line-height: 156.6%;
+}
+
+
+
+
