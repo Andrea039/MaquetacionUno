@@ -256,4 +256,21 @@ footer img{
 
 /* ------------------------------- */
 @media screen and (max-width: 375px){
+/* Section 1-------------- */
+    header{
+        width: 185%;
+        margin: 8% 100% 8% 5%;
+    }
+    .prueba-imagen{
+        width: 150%;
+        margin: 15% 23%;
+    }
+/*Section 2------------------*/
+    .container-2{
+    display: block;
+    max-width: 300%;
+        border: white 5px groove;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
